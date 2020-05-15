@@ -1,4 +1,5 @@
 {
+  
   "name": "react-ecommerce",
   "version": "1.0.0",
   "description": "Simple react ecommerce app using APIs based on NodeJS",
@@ -16,7 +17,8 @@
       "^layouts(.*)$": "<rootDir>/src/layouts$1",
       "^models(.*)$": "<rootDir>/src/models$1",
       "^constants(.*)$": "<rootDir>/src/constants$1"
-    }
+    },
+    "homepage" : "http://myname.github.io/myapp"
   },
   "scripts": {
     "build-css": "(cd client && npm build-css)",
