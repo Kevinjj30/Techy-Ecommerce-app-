@@ -19,6 +19,7 @@
     }
   },
   "scripts": {
+    "postinstall": "cd client && npm run",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts-ts start",
