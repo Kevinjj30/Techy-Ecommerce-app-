@@ -29,8 +29,8 @@
     "eject": "cd client && npm eject",
     "deploy:firebase": "(cd client && npm deploy:firebase)",
     "snyk-protect": "(cd client && npm snyk-protect)",
-    "prepare": "(cd client && npm prepare)",
-    "heroku-postbuild": "(cd client && npm heroku-postbuild)"
+    "prepare": "(cd client && npm run snyk-protect)",
+    "heroku-postbuild": "(cd client && npm run build)"
   },
   "author": "Kapil Jain",
   "license": "MIT",
