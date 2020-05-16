@@ -1,5 +1,5 @@
 {
-  "homepage" :"http://Kevinjj30.github.io/Techy-Ecommerce-app-",
+  "homepage" :"https://Kevinjj30.github.io/Techy-Ecommerce-app-",
   "name": "react-ecommerce",
   "version": "1.0.0",
   "description": "Simple react ecommerce app using APIs based on NodeJS",
@@ -22,7 +22,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "postinstall": "cd client && npm run",
+    "postinstall": "npm run",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts-ts start",
