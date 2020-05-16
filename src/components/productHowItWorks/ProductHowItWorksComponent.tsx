@@ -25,7 +25,7 @@ import { IProductHowItWorksComponentState } from './IProductHowItWorksComponentS
 
 const styles = (theme: any) => ({
   root: {
-    backgroundColor: '#f7f7f7',
+    backgroundColor: '#FFFFFF',
     overflow: 'hidden',
     padding: '35px',
     [theme.breakpoints.down('xs')]: {
