@@ -7,6 +7,7 @@ var compiler = webpack(webpackConfig);
 
 // Create our app
 var app = express();
+
 const PORT = process.env.PORT || 3000;
 
 // Setup logger
@@ -46,4 +47,15 @@ app.get('*', (req, res) => {
 
 app.listen(PORT, function() {
     console.log('Express server is up on port ' + PORT);
+
+
+
+
+
+
+
+
+
+
+    
 });
