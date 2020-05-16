@@ -10,7 +10,7 @@ import { IProductHeroComponentState } from './IProductHeroComponentState'
 import ProductHeroLayout from '../productHeroLayout'
 import { url } from 'inspector'
 
-const backgroundImage = 'src/styles/images/phonereal.png?auto=format&fit=crop&w=1400&q=80'
+const backgroundImage = '../styles/images/phonereal.png?auto=format&fit=crop&w=1400&q=80'
 
 const styles = (theme: any) => ({
   background: {
