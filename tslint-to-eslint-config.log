@@ -1,0 +1,28 @@
+7 ESLint rules behave differently from their TSLint counterparts:
+  * no-console:
+    - Custom console methods, if they exist, will no longer be allowed.
+  * @typescript-eslint/no-unused-expressions:
+    - The TSLint optional config "allow-new" is the default ESLint behavior and will no longer be ignored.
+  * brace-style:
+    - ESLint's brace-style will check all tokens.
+  * @typescript-eslint/quotes:
+    - Option "jsx-single" is not supported by ESLint.
+  * eqeqeq:
+    - Option "smart" allows for comparing two literal values, evaluating the value of typeof and null comparisons.
+  * camelcase:
+    - Leading undescores in variable names will now be ignored.
+    - ESLint's camel-case rule does not allow pascal or snake case variable names. Those cases are reserved for class names and static methods.
+  * no-underscore-dangle:
+    - Leading and trailing underscores (_) on identifiers will now be ignored.
+
+9 rules are not known by tslint-to-eslint-config to have ESLint equivalents:
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "jsx-curly-spacing".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "jsx-equals-spacing".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "jsx-key".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "jsx-no-string-ref".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "jsx-wrap-multiline".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "no-extra-boolean-cast".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "ter-indent".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "typedef".
+  * tslint-to-eslint-config does not know the ESLint equivalent for TSLint's "whitespace".
+
