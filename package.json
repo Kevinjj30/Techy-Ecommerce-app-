@@ -30,7 +30,7 @@
     "start-js": "react-scripts-ts start",
     "start": "serve -s build",
     "build-js": "react-scripts-ts build",
-    "build": "react-scripts build",
+    "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy:firebase": "npm run build && firebase deploy",
