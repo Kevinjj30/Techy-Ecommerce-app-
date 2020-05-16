@@ -5,7 +5,7 @@ module.exports = {
     database: 'Techy1',
     host: '127.0.0.1',
     dialect: 'mysql'
-  },
+  },c
   test: {
     username: 'root',
     password: 'root',
