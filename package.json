@@ -1,6 +1,4 @@
 {
-  "proxy": "https://ipragmatech-ecommmerce.herokuapp.com/",
-  "homepage": "https://Kevinjj30.github.io/Techy-Ecommerce-app-",
   "name": "react-ecommerce",
   "version": "1.0.0",
   "description": "Simple react ecommerce app using APIs based on NodeJS",
