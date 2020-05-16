@@ -246,11 +246,11 @@ export class ProductHowItWorksComponent extends Component<IProductHowItWorksComp
               <Grid item sm={12} md={6} xs={12} className={classes.productwrapper} >
                 <div className={classes.itemimage}>
                 <Hidden xsDown implementation='css'>
-                    <img src={'/public/images/whitephone.png'}/>
+                    <img src={'/images/whitephone.png'}/>
                 </Hidden>
                 
                 <Hidden smUp implementation='css'>
-                    <img src={'/public/images/whitephone.png'}/>
+                    <img src={'/images/whitephone.png'}/>
                 </Hidden>
                 </div>
               </Grid>
