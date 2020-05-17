@@ -3,17 +3,17 @@
   "info": {
     "description": "This is a ecommerce project",
     "version": "1.0.0",
-    "title": "iPragmatech Ecommerce",
+    "title": "Techy Ecommerce",
     "termsOfService": "",
     "contact": {
-      "email": "kapil.jain@ipragmatech.com"
+      "email": "techyecomm@gmail.com"
     },
     "license": {
       "name": "Apache 2.0",
       "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
     }
   },
-  "host": "ipragmatech-ecommmerce.herokuapp.com",
+  "host": "3.20.70.243:3001",
   "basePath": "/api",
   "consumes": [
     "application/json"
@@ -40,7 +40,6 @@
     }
   ],
   "schemes": [
-    "https",
     "http"
   ],
   "paths": {
