@@ -1,4 +1,5 @@
 const express = require('express');
+const cors =  require('cors');
 const paginate = require('express-paginate');
 const session = require("express-session");
 const bodyParser = require("body-parser");
@@ -10,6 +11,7 @@ class Server {
     this.config = config;
     this.logger = logger;
     this.express = express();
+    this.express.use(cors());
     this.express.use(paginate.middleware(10, 50));
     this.express.disable('x-powered-by');
 
